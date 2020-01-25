@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../Style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="title">Quick Guide to Learn About JS Objects</h1>
+    <div class="container">
+      <!-- Mantain the width and height here to use the getContext of the Canvas API -->
+      <form action="" class="formContainer" id="formContainer">
+        <p>Please Enter the Following:</p>
+        <label for="" id="question">Car Name</label>
+        <input type="text" name="" id="carName" placeholder="answer" />
+        <label for="" id="question">Car Model</label>
+        <input type="text" name="" id="carModel" placeholder="answer" />
+        <label for="" id="question">Car Color</label>
+        <input type="text" name="" id="carColor" placeholder="answer" />
+        <button class="nextBttn" id="submitBttn">Submit</button>
+        <div
+          id="results"
+          style="font-family: sans-serif; display: none"
+          class="results"
+        >
+          <p>Your Car object Properties:</p>
+          <p id="object"></p>
+          <p>
+            The new object that inherited the above parameters and have <br />
+            two new methods: car.start() and car.stop()
+          </p>
+          <p id="otherObject"></p>
+          <p>You Can try the new two Methods</p>
+          <button class="nextBttn" id="startCar">Start Car</button>
+          <button class="nextBttn" id="stopCar">Stop Car</button>
+          <button class="nextBttn" id="restartBtnn">Restart</button>
+        </div>
+      </form>
+    </div>
+    <script src="../Controller/script.js" async defer></script>
+  </body>
+</html>
